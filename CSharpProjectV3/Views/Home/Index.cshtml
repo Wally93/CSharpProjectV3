@@ -15,5 +15,10 @@
         <p>
             Here, you can view, add, edit, and delete daylilies from this database.
         </p>
+
+        @*This ActionLink requires: linkText, actionName, controllerName, routeValues, htmlAttributes*@
+        @*Inline styling here needs to be refactored. Quick styling fix.  Issues with bootstrap overriding.*@
+
+        <button style="outline:1px; border-color:#000 ; margin-bottom:5px; background-color: white; border-radius: 5px; color:#eee">@Html.ActionLink("View Daylilies", "Index", "Daylily", "Daylily", new { @class = "btn btn-sm", style = "color:black" })</button>
     </div>
 </div>
