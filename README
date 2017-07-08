@@ -1,0 +1,28 @@
+Project Name: Daylily Database
+
+Project Origin: Course Project for Code Louisville Summer 2017 C# course.
+
+Project Description: A website for the cataloging of daylillies, built on the ASP.NET MVC framework.
+
+Project Parameters: Full CRUD capability with data persistence in LocalDB database.  Home views include Index and About.  Daylily views
+include Index, Create, Details, Edit, and Delete (CRUD).  Daylily information includes Name, Color, Height, and Bloom Size.  Context and Ininialization
+files located in DAL folder.
+
+Issues in Build: First two attempts failed as a result of attempting to do too much too soon.  The project was rebuilt from scratch as simple as
+possible and then updated and refactored.  The first two attempts yeilded many learning opportunities that culminated in the ease of building
+the final product here (v3).
+
+Updates for a Later Date: Increase the styling and add images.  Add more data fields to the database (bool Tetraploid and Reblooming, enum Primary and
+Secondary Color).  Create the colors and heights as pre-determined choices from dropdown to limit possibilies and mitigate duplication and information
+sprawling.  Color choices could be limited to <20 and height and bloom size could be limited to .25 inches in a range from 8"-42" in height and 
+4"-8" in bloom size.  Tetraploid and Reblooming categories could be a simple YES/NO radio button.  (It is these factors that were causing issues in the 
+first two versions.  It is because of a time limitation that the basic functionality is included in V3 with the possibility of enhancements and 
+refactoring at a later date).  Version 2 is still available on GitHub as simply CSharpProject (no V3) for reference in the future.
+
+How to Run the Project: You will need to ensure that you have a working copy of Visual Studio (not Visual Studio Code) and a local installation
+of Microsoft SQLLocalDb and the Microsoft .NET Framework.  Then, clone or download the CSharpProjectV3 repository and open the CSharpProjectV3.sln file in the top folder.
+
+Contact Information:
+Russell Kahmann
+rk@roguemiddlechild.com
+www.roguemiddlechild.com
