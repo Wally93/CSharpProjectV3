@@ -6,7 +6,7 @@ Project Description: A website for the cataloging of daylillies, built on the AS
 
 Project Parameters: Full CRUD capability with data persistence in LocalDB database.  Home views include Index and About.  Daylily views
 include Index, Create, Details, Edit, and Delete (CRUD).  Daylily information includes Name, Color, Height, and Bloom Size.  Context and Ininialization
-files located in DAL folder.
+files located in DAL folder.  Site is responsive at 1200px and 768px using boostrap responsiveness.
 
 Issues in Build: First two attempts failed as a result of attempting to do too much too soon.  The project was rebuilt from scratch as simple as
 possible and then updated and refactored.  The first two attempts yeilded many learning opportunities that culminated in the ease of building
