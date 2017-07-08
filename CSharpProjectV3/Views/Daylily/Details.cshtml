@@ -1,0 +1,55 @@
+﻿@model CSharpProjectV3.Models.Daylily
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@*Full detailed view of daylily.  Be mindful to include any additional attributes added later to this detailed page.  It should include everything.*@
+
+<div>
+    <h4>Daylily</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BloomSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BloomSize)
+        </dd>
+
+    </dl>
+</div>
+
+@*Optional navigation links for editing and returning to index*@
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
