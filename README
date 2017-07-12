@@ -15,6 +15,8 @@ Secondary Color).  Create the colors and heights as pre-determined choices from 
 sprawling.  Color choices could be limited to <20 and height and bloom size could be limited to .25 inches in a range from 8"-42" in height and 4"-8" in bloom size.  Tetraploid and Reblooming categories could be a simple YES/NO radio button.  (It is these factors that were causing issues in the
 first two versions.  It is because of a time limitation that the basic functionality is included in V3 with the possibility of enhancements and refactoring at a later date).  Version 2 is still available on GitHub as simply CSharpProject (no V3) for reference in the future.
 
+Known Bug: The "View Daylilies" button on the home page does not always work in IE11 and Firefox.  This behavior is the result of placing an Html.Actionlink inside of an HTML button element.  This is a known issue and will be resolved later.  You can still navigate to the Daylily index through the navigation bar "Daylilies" link.
+
 How to Run the Project: You will need to ensure that you have a working copy of Visual Studio (not Visual Studio Code) and a local installation of Microsoft SQLLocalDb and the Microsoft .NET Framework.  Then, clone or download the CSharpProjectV3 repository and open the CSharpProjectV3.sln file in the top folder.
 
 Contact Information:
